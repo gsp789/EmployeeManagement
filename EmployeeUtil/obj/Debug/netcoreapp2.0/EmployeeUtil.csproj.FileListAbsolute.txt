@@ -20,3 +20,16 @@ C:\Users\GAMPA\source\repos\EmployeeUtil\EmployeeManagement\EmployeeUtil\obj\Deb
 C:\Users\GAMPA\source\repos\EmployeeUtil\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.AssemblyInfo.cs
 C:\Users\GAMPA\source\repos\EmployeeUtil\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.dll
 C:\Users\GAMPA\source\repos\EmployeeUtil\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.pdb
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\bin\Debug\netcoreapp2.0\EmployeeUtil.deps.json
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\bin\Debug\netcoreapp2.0\EmployeeUtil.runtimeconfig.json
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\bin\Debug\netcoreapp2.0\EmployeeUtil.runtimeconfig.dev.json
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\bin\Debug\netcoreapp2.0\EmployeeUtil.dll
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\bin\Debug\netcoreapp2.0\EmployeeUtil.pdb
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.csprojResolveAssemblyReference.cache
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.csproj.CoreCompileInputs.cache
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.AssemblyInfoInputs.cache
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.AssemblyInfo.cs
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.dll
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\obj\Debug\netcoreapp2.0\EmployeeUtil.pdb
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\bin\Debug\netcoreapp2.0\EmployeeUti.Data.dll
+F:\SingaporeProjects\EmployeeManagement\EmployeeUtil\bin\Debug\netcoreapp2.0\EmployeeUti.Data.pdb

@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using EmployeeUti.Data.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeUtil
 {
@@ -15,7 +17,10 @@ namespace EmployeeUtil
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            var connection = @"Server=LAPTOP-D8N1NPGG\MSSQLSERVER1;Database=iCPMS_OMTI_FZ;Integrated Security=True;";
+            services.AddDbContext<OMTIDBContext>(options => options.UseSqlServer(connection));
+            services.AddMvc().AddSessionStateTempDataProvider();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -25,6 +30,7 @@ namespace EmployeeUtil
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSession();
             app.UseStaticFiles();
             app.UseMvc(config =>
             {
