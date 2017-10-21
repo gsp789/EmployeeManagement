@@ -1,9 +1,0 @@
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\bin\Debug\netcoreapp2.0\EmployeeUti.Data.deps.json
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\bin\Debug\netcoreapp2.0\EmployeeUti.Data.dll
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\obj\Debug\netcoreapp2.0\EmployeeUti.Data.csprojResolveAssemblyReference.cache
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\obj\Debug\netcoreapp2.0\EmployeeUti.Data.csproj.CoreCompileInputs.cache
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\obj\Debug\netcoreapp2.0\EmployeeUti.Data.AssemblyInfoInputs.cache
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\obj\Debug\netcoreapp2.0\EmployeeUti.Data.AssemblyInfo.cs
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\bin\Debug\netcoreapp2.0\EmployeeUti.Data.pdb
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\obj\Debug\netcoreapp2.0\EmployeeUti.Data.dll
-F:\SingaporeProjects\EmployeeManagement\EmployeeUti.Data\obj\Debug\netcoreapp2.0\EmployeeUti.Data.pdb
