@@ -12,6 +12,7 @@ namespace EmployeeUti.Data.Models
         public virtual DbSet<AdmUserGroup> AdmUserGroup { get; set; }
         public virtual DbSet<AdmUserLevel> AdmUserLevel { get; set; }
         public virtual DbSet<AdmUserLevelHd> AdmUserLevelHd { get; set; }
+        public virtual DbSet<Attachments> Attachments { get; set; }
         public virtual DbSet<BtsbusinessTripExpenseCategory> BtsbusinessTripExpenseCategory { get; set; }
         public virtual DbSet<BtsbusinessTripExpenseSubCategory> BtsbusinessTripExpenseSubCategory { get; set; }
         public virtual DbSet<BtsclaimStatus> BtsclaimStatus { get; set; }

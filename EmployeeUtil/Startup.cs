@@ -8,16 +8,23 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using EmployeeUti.Data.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace EmployeeUtil
 {
     public class Startup
     {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = @"Server=LAPTOP-D8N1NPGG\MSSQLSERVER1;Database=iCPMS_OMTI_FZ;Integrated Security=True;";
+            var connection = Configuration.GetConnectionString("EMSDatabase");
             services.AddDbContext<OMTIDBContext>(options => options.UseSqlServer(connection));
             services.AddMvc().AddSessionStateTempDataProvider();
             services.AddSession();
@@ -37,7 +44,7 @@ namespace EmployeeUtil
                 config.MapRoute(
                    name: "default",
                    template: "{controller}/{action}/{id?}",
-                   defaults: new { controller = "UserLogin", action = "Index" }
+                   defaults: new { controller = "ExpenseCreation", action = "Index" }
                     );
             });
         }

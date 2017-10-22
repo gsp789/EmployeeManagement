@@ -1,0 +1,16 @@
+create table currency (Id int not null identity(1,1) primary key, currencyCode varchar(255) not null, CurrencyName varchar(255) not null, IsActive tinyint not null, CreatedBy varchar(255), UpdatedBy varchar(255), CreatedDateTime datetime, UpdatedDateTime datetime);
+
+
+insert into dbo.currency values('SGD', 'SINGAPORE DOLLAR', 1, 'Praveen', 'Praveen', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+insert into dbo.currency values('USD', 'UNITED STATES DOLLAR', 1, 'Praveen', 'Praveen', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+
+create table Attachments (Id INT NOT NULL IDENTITY(1,1) PRIMARY KEY, FileName varchar(255) not null, FilePath varchar(255) not null, ExpenseId INT not null, FOREIGN KEY (ExpenseId) references btsexpenses(ExpenseId));
+
+insert into dbo.BTSBusinessTripExpenseCategory values('Accommodation',null, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 'praveen', 'praveen');
+
+insert into dbo.BTSBusinessTripExpenseCategory values('Transportation',null, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 'praveen', 'praveen');
+
+
+
